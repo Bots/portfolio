@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 16, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: ['bots/RMSTrial'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'JP Wile',
+    title: 'BotsOne',
     description: "John Paul Wile's Portfolio",
     imageURL: '',
   },
@@ -91,7 +91,7 @@ const CONFIG = {
     'Antd',
     'Tailwind',
   ],
-  experience: [
+  experiences: [
     {
       company: 'Forward Flow',
       position: 'Tech Lead',
@@ -105,14 +105,6 @@ const CONFIG = {
       from: 'July 2019',
       to: 'August 2022',
       companyLink: 'https://redmtnsci.com',
-    },
-  ],
-  education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
     },
   ],
   publications: [
