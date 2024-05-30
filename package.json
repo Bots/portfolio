@@ -1,16 +1,16 @@
 {
-  "name": "@arifszn/gitprofile",
-  "description": "Create an automatic portfolio based on GitHub profile",
-  "version": "3.1.0",
+  "name": "@bots/portfolio",
+  "description": "Automatic portfolio based on GitHub profile",
+  "version": "1.0",
   "type": "module",
   "license": "MIT",
-  "author": "arifszn",
+  "author": "bots",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifszn/gitprofile.git"
+    "url": "https://github.com/bots/portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/arifszn/gitprofile/issues"
+    "url": "https://github.com/bots/portfolio/issues"
   },
   "scripts": {
     "dev": "vite",

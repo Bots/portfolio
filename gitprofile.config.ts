@@ -93,7 +93,7 @@ const CONFIG = {
   ],
   experience: [
     {
-      company: 'Company Name',
+      company: 'Forward Flow',
       position: 'Tech Lead',
       from: 'January, 2024',
       to: 'Present',
